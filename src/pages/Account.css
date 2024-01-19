@@ -1,0 +1,85 @@
+.login-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.login-title{
+    font-size: 64px;
+    margin: 0px auto;
+}
+ws  z
+.login-prompt{
+    margin: 30px;
+    font-size: 16px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.form-remember-prompt{
+    font-size: 14px;
+}
+
+.form-child {
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: rgb(51, 51, 51);
+    border: 2px solid black;
+    font-size: 16px;
+    color: white;
+}
+
+input::placeholder{
+    color: rgba(211, 211, 211, 0.3);
+}
+
+.form-child{
+    margin: 8px 0px;
+    height: 45px;
+    width: 300px;
+}
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 10px;
+    width: max-content;
+    color: #E4ACFF;
+    opacity: 0.8;
+    text-decoration: none !important;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.form-btn{
+    margin: 10px 0px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #950ED4;
+    border: 4px solid #B71CFF;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-divider{
+ height: 2px;  
+ width: 100px; 
+ background-color: white;
+ margin: 20px 0px;
+}
+
+.register-link{
+    margin: 0;
+}

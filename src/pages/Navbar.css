@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 20px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar {
+  height: 80px;
+  background-color: #000000;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-elements ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-elements ul li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav-elements ul a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-elements ul a.active {
+  color: gray;
+  font-weight: 500;
+  position: relative;
+}
+
+.nav-elements ul a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+}
+
+.nav-btn{
+    padding: 5px 20px;
+    background-color: #950ED4;
+    border: 4px solid #B71CFF;
+    border: #FFFFFF 2px;
+    border-radius: 5px;
+    margin-right: 0px;
+}
+.nav-btn.active {
+    color: white !important;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .nav-btn.active::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 0px;
+    background-color:transparent !important;
+}
+
+.logo-icon{
+    margin-top: 15px;
+    width: 200px;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

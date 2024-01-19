@@ -1,0 +1,33 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 60px) !important;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.home-heading {
+  width: 100%;
+  font-size: 64px;
+  margin: 0;
+  font-weight: 100;
+}
+
+.narad-text{
+  margin: 10px 0px 30px 0px;
+}
+
+.launch-btn {
+  width: 250px;
+  height: 60px;
+  background-color: #950ED4;
+  border-radius: 15px;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

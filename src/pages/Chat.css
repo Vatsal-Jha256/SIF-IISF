@@ -1,0 +1,221 @@
+/* Chat Tray Styles */
+.chat-tray {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+  width: 100%;
+}
+
+/* Speed Toggler Styles */
+.speed-toggler {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+
+.speed-toggler button {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.speed-toggler button:hover {
+  background-color: #950ed4;
+}
+
+.speed-toggler button.active {
+  background-color: #950ed4;
+}
+
+/* Dropdown Container Styles */
+.dropdown-container {
+  display: flex;
+  color: white;
+  margin-right: 30px;
+}
+
+.dropdown-title {
+  margin: 0;
+  margin-right: 10px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  border: 2px solid white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.dropbtn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  width: 200px;
+  max-height: 250px;
+  overflow-y: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content span {
+  padding: 12px 16px;
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-content span:hover {
+  background-color: gray;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Recommended Questions Styles */
+.recommended-questions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.recommended-questions p {
+  grid-column: span 2;
+  text-align: center;
+}
+
+.recommended-questions button {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.recommended-questions button:hover {
+  background-color: #950ed4;
+}
+
+/* Chatbot Container Styles */
+.chatbot-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Chatbot Messages Styles */
+.chatbot-messages {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  margin-bottom: 30px;
+}
+
+/* User Input Styles */
+.user-input {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  margin-top: -30px;
+}
+
+.user-input-box {
+  height: 40px;
+  width: 100%;
+  margin: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: rgb(20, 20, 20);
+  border: 2px solid gray;
+  padding: 5px;
+  color: white;
+}
+
+.input-btn {
+  margin: 10px;
+  margin-left: 0;
+  width: 50px;
+  border-radius: 0 15px 15px 0;
+  background-color: rgb(64, 64, 64);
+  border: 2px solid gray;
+  color: white;
+}
+
+.submit-logo {
+  width: 30px;
+  height: 30px;
+}
+
+/* Message Styles */
+.message {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(30, 30, 30) !important;
+}
+
+.user {
+  text-align: right;
+  max-width: 75%;
+  align-self: flex-end;
+}
+
+.chatbot {
+  text-align: left;
+  max-width: 75%;
+  align-self: flex-start;
+}
+
+.btn-1 {
+  border-radius: 5px 0 0 5px !important;
+}
+
+.btn-2 {
+  border-radius: 0 !important;
+}
+
+.btn-3 {
+  border-radius: 0 5px 5px 0 !important;
+}
+
+.mic-btn {
+  background-color: rgb(64, 64, 64);
+  color: white;
+  border: 2px solid gray;
+  border-radius: 15px 0 0 15px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 10px;
+  margin-right: 0px;
+  width: 50px;
+}
+
+a{
+  color: rgb(250, 176, 255);
+}

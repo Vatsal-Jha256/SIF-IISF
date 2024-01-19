@@ -1,0 +1,5 @@
+tunnels:
+  httpbin:
+    proto: http
+    addr: 8000
+    domain: sif.ngrok.dev
